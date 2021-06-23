@@ -14,6 +14,7 @@ object Solution {
   }  
 
   def searchMatrix(matrix: Array[Array[Int]], target: Int): Boolean = {
+    @annotation.tailrec
     def iterIndex(array: Array[Array[Int]], startIndex: Int, endIndex: Int): Int = {
       val distance = endIndex - startIndex
       if(distance == 0) startIndex
@@ -29,6 +30,7 @@ object Solution {
 
     val indexToWorkWith = iterIndex(matrix, 0, matrix.length - 1)
 
+    @annotation.tailrec
     def iter(array: Array[Int], startIndex: Int, endIndex: Int): Boolean = {
       val distance = endIndex - startIndex
       if(distance == 0) array(startIndex) == target
