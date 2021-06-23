@@ -2,27 +2,27 @@
     "version": "1.4.0",
     "project": {
         "name": "root-test",
-        "directory": "/home/foobar/solutions/firstLastPosOfTargetInSortedArray",
-        "workspaceDir": "/home/foobar/solutions/firstLastPosOfTargetInSortedArray",
+        "directory": "/home/foo/leetcode_solutions/medium/removeNtoLastElementLinkedList",
+        "workspaceDir": "/home/foo/leetcode_solutions/medium/removeNtoLastElementLinkedList",
         "sources": [
-            "/home/foobar/solutions/firstLastPosOfTargetInSortedArray/src/test/scala",
-            "/home/foobar/solutions/firstLastPosOfTargetInSortedArray/src/test/scala-2.13",
-            "/home/foobar/solutions/firstLastPosOfTargetInSortedArray/src/test/scala-2",
-            "/home/foobar/solutions/firstLastPosOfTargetInSortedArray/src/test/java",
-            "/home/foobar/solutions/firstLastPosOfTargetInSortedArray/target/scala-2.13/src_managed/test"
+            "/home/foo/leetcode_solutions/medium/removeNtoLastElementLinkedList/src/test/scala",
+            "/home/foo/leetcode_solutions/medium/removeNtoLastElementLinkedList/src/test/scala-2.13",
+            "/home/foo/leetcode_solutions/medium/removeNtoLastElementLinkedList/src/test/scala-2",
+            "/home/foo/leetcode_solutions/medium/removeNtoLastElementLinkedList/src/test/java",
+            "/home/foo/leetcode_solutions/medium/removeNtoLastElementLinkedList/target/scala-2.13/src_managed/test"
         ],
         "dependencies": [
             "root"
         ],
         "classpath": [
-            "/home/foobar/solutions/firstLastPosOfTargetInSortedArray/.bloop/root/scala-2.13/classes",
-            "/home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar"
+            "/home/foo/leetcode_solutions/medium/removeNtoLastElementLinkedList/.bloop/root/scala-2.13/classes",
+            "/home/foo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar"
         ],
-        "out": "/home/foobar/solutions/firstLastPosOfTargetInSortedArray/.bloop/root",
-        "classesDir": "/home/foobar/solutions/firstLastPosOfTargetInSortedArray/.bloop/root/scala-2.13/test-classes",
+        "out": "/home/foo/leetcode_solutions/medium/removeNtoLastElementLinkedList/.bloop/root",
+        "classesDir": "/home/foo/leetcode_solutions/medium/removeNtoLastElementLinkedList/.bloop/root/scala-2.13/test-classes",
         "resources": [
-            "/home/foobar/solutions/firstLastPosOfTargetInSortedArray/src/test/resources",
-            "/home/foobar/solutions/firstLastPosOfTargetInSortedArray/target/scala-2.13/resource_managed/test"
+            "/home/foo/leetcode_solutions/medium/removeNtoLastElementLinkedList/src/test/resources",
+            "/home/foo/leetcode_solutions/medium/removeNtoLastElementLinkedList/target/scala-2.13/resource_managed/test"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -32,13 +32,13 @@
                 
             ],
             "jars": [
-                "/home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar",
-                "/home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.6/scala-compiler-2.13.6.jar",
-                "/home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.6/scala-reflect-2.13.6.jar",
-                "/home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.19.0/jline-3.19.0.jar",
-                "/home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar"
+                "/home/foo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar",
+                "/home/foo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.6/scala-compiler-2.13.6.jar",
+                "/home/foo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.6/scala-reflect-2.13.6.jar",
+                "/home/foo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.19.0/jline-3.19.0.jar",
+                "/home/foo/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar"
             ],
-            "analysis": "/home/foobar/solutions/firstLastPosOfTargetInSortedArray/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip",
+            "analysis": "/home/foo/leetcode_solutions/medium/removeNtoLastElementLinkedList/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip",
             "setup": {
                 "order": "mixed",
                 "addLibraryToBootClasspath": true,
@@ -100,9 +100,9 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/home/foobar/.sdkman/candidates/java/16.0.1.j9-adpt",
+                "home": "/home/foo/.sdkman/candidates/java/16.0.1.j9-adpt",
                 "options": [
-                    "-Duser.dir=/home/foobar/solutions/firstLastPosOfTargetInSortedArray"
+                    "-Duser.dir=/home/foo/leetcode_solutions/medium/removeNtoLastElementLinkedList"
                 ]
             },
             "mainClass": [
@@ -119,12 +119,12 @@
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "/home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar"
+                            "path": "/home/foo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "/home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6-sources.jar"
+                            "path": "/home/foo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6-sources.jar"
                         }
                     ]
                 },
@@ -136,12 +136,12 @@
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "/home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar"
+                            "path": "/home/foo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "/home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6-sources.jar"
+                            "path": "/home/foo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6-sources.jar"
                         }
                     ]
                 }

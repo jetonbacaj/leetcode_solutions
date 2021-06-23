@@ -25686,3 +25686,230 @@ No more data in the server stdin, exiting...
 No more data in the server stdin, exiting...
 No more data in the server stdin, exiting...
 No more data in the server stdin, exiting...
+[0m2021.06.23 00:37:40 INFO  Started: Metals version 0.10.4 in workspace '/home/foo/leetcode_solutions/medium/firstLastPosOfTargetInSortedArray' for client Visual Studio Code 1.57.1.[0m
+[0m2021.06.23 00:37:45 INFO  time: initialize in 4.69s[0m
+[0m2021.06.23 00:37:45 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher5085373631638633122/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.06.23 00:37:45 WARN  no build target for: /home/foo/leetcode_solutions/medium/firstLastPosOfTargetInSortedArray/src/main/scala/example/Solution.scala[0m
+Waiting for the bsp connection to come up...
+error: The command bsp --protocol local --socket /tmp/bsp-launcher5085373631638633122/bsp.socket returned with an error
+> [0m[32m[D][0m Loading workspace settings from bloop.settings.json
+> [0m[32m[D][0m Loading 2 projects from '/home/foo/leetcode_solutions/medium/firstLastPosOfTargetInSortedArray/.bloop'...
+> [0m[32m[D][0m Loading project from '/home/foo/leetcode_solutions/medium/firstLastPosOfTargetInSortedArray/.bloop/root.json'
+> [0m[32m[D][0m Loading project from '/home/foo/leetcode_solutions/medium/firstLastPosOfTargetInSortedArray/.bloop/root-test.json'
+> [0m[33m[W][0m Scala instance jar /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.6/scala-compiler-2.13.6.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.6/scala-compiler-2.13.6.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.6/scala-reflect-2.13.6.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.19.0/jline-3.19.0.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.6/scala-reflect-2.13.6.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.19.0/jline-3.19.0.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar doesn't exist!
+> [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.6.
+> [0m[32m[D][0m   => /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+> [0m[32m[D][0m   => /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.19.0/jline-3.19.0.jar
+> [0m[32m[D][0m   => /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.6/scala-compiler-2.13.6.jar
+> [0m[32m[D][0m   => /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar
+> [0m[32m[D][0m   => /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.6/scala-reflect-2.13.6.jar
+> [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.6.
+> [0m[32m[D][0m   => /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+> [0m[32m[D][0m   => /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.19.0/jline-3.19.0.jar
+> [0m[32m[D][0m   => /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.6/scala-compiler-2.13.6.jar
+> [0m[32m[D][0m   => /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar
+> [0m[32m[D][0m   => /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.6/scala-reflect-2.13.6.jar
+> bloop.data.Project$ProjectReadException: Failed to load project from /home/foo/leetcode_solutions/medium/firstLastPosOfTargetInSortedArray/.bloop/root.json
+> 	at bloop.data.Project$.fromBytesAndOrigin(Project.scala:223)
+> 	at bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:238)
+> 	at bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:57)
+> 	at bloop.engine.BuildLoader$$$Lambda$349/0x00000000ac38cbb0.apply(Unknown Source)
+> 	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+> 	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+> 	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+> 	at monix.eval.Task$$$Lambda$329/0x00000000ac357720.run(Unknown Source)
+> 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+> 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+> 	at java.base/java.lang.Thread.run(Thread.java:853)
+> Caused by: java.nio.file.NoSuchFileException: /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar[0m[32m[D][0m Elapsed: 324.3708 ms
+> 
+> 	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+> 	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+> 	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+> 	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+> 	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:149)
+> 	at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+> 	at java.base/java.nio.file.Files.readAttributes(Files.java:1843)
+> 	at bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:82)
+> 	at bloop.ScalaInstance$$Lambda$390/0x000000007c019440.apply(Unknown Source)
+> 	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:285)
+> 	at scala.collection.TraversableLike$$Lambda$60/0x00000000ac0c6ff0.apply(Unknown Source)
+> 	at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+> 	at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+> 	at scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+> 	at scala.collection.TraversableLike.map(TraversableLike.scala:285)
+> 	at scala.collection.TraversableLike.map$(TraversableLike.scala:278)
+> 	at scala.collection.AbstractTraversable.map(Traversable.scala:108)
+> 	at bloop.ScalaInstance.<init>(ScalaInstance.scala:78)
+> 	at bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:152)
+> 	at bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:157)
+> 	at bloop.ScalaInstance$$$Lambda$381/0x000000008402b0b8.apply(Unknown Source)
+> 	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+> [0m[31m[E][0m Failed to load project from /home/foo/leetcode_solutions/medium/firstLastPosOfTargetInSortedArray/.bloop/root-test.json
+> 	at bloop.ScalaInstance$.apply(ScalaInstance.scala:157)
+> 	at bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:240)
+> 	at bloop.data.Project$$$Lambda$360/0x0000000084040678.apply(Unknown Source)
+> 	at scala.Option.flatMap(Option.scala:271)
+> 	at bloop.data.Project$.fromConfig(Project.scala:235)
+> 	at bloop.data.Project$.fromBytesAndOrigin(Project.scala:217)[0m[36m[T][0m bloop.data.Project$ProjectReadException: Failed to load project from /home/foo/leetcode_solutions/medium/firstLastPosOfTargetInSortedArray/.bloop/root-test.json
+> [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:223)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:238)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:57)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$$$Lambda$349/0x00000000ac38cbb0.apply(Unknown Source)
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+> [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+> [0m[36m[T][0m 	monix.eval.Task$$$Lambda$329/0x00000000ac357720.run(Unknown Source)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+> [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:853)
+> [0m[36m[T][0m Caused by: java.nio.file.NoSuchFileException: /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar
+> [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+> [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+> 
+> [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+> [0m[36m[T][0m 	java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+> [0m[36m[T][0m 	java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:149)
+> [0m[36m[T][0m 	java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+> [0m[36m[T][0m 	java.base/java.nio.file.Files.readAttributes(Files.java:1843)
+> [0m[36m[T][0m 	bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:82)
+> [0m[36m[T][0m 	bloop.ScalaInstance$$Lambda$390/0x000000007c019440.apply(Unknown Source)
+> [0m[36m[T][0m 	scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:285)
+> [0m[36m[T][0m 	scala.collection.TraversableLike$$Lambda$60/0x00000000ac0c6ff0.apply(Unknown Source)
+> [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+> [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+> [0m[36m[T][0m 	scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+> [0m[36m[T][0m 	scala.collection.TraversableLike.map(TraversableLike.scala:285)
+> [0m[36m[T][0m 	scala.collection.TraversableLike.map$(TraversableLike.scala:278)
+> [0m[36m[T][0m 	scala.collection.AbstractTraversable.map(Traversable.scala:108)
+> [0m[36m[T][0m 	bloop.ScalaInstance.<init>(ScalaInstance.scala:78)
+> [0m[36m[T][0m 	bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:152)
+> [0m[36m[T][0m 	bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:157)
+> [0m[36m[T][0m 	bloop.ScalaInstance$$$Lambda$381/0x000000008402b0b8.apply(Unknown Source)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+> [0m[36m[T][0m 	bloop.ScalaInstance$.apply(ScalaInstance.scala:157)
+> [0m[36m[T][0m 	bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:240)
+> [0m[36m[T][0m 	bloop.data.Project$$$Lambda$360/0x0000000084040678.apply(Unknown Source)
+> [0m[36m[T][0m 	scala.Option.flatMap(Option.scala:271)
+> [0m[36m[T][0m 	bloop.data.Project$.fromConfig(Project.scala:235)
+> [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:217)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:238)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:57)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$$$Lambda$349/0x00000000ac38cbb0.apply(Unknown Source)
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+> 	... 10 more[0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+> 
+> [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+> [0m[36m[T][0m 	monix.eval.Task$$$Lambda$329/0x00000000ac357720.run(Unknown Source)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+> [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:853)
+error: Trying a tcp-based connection to the server instead...
+Opening a bsp server connection with 'bsp --protocol tcp --port 14307'...
+Waiting for the bsp connection to come up...
+error: The command bsp --protocol tcp --port 14307 returned with an error
+> [0m[32m[D][0m Loading workspace settings from bloop.settings.json
+> [0m[32m[D][0m Loading 2 projects from '/home/foo/leetcode_solutions/medium/firstLastPosOfTargetInSortedArray/.bloop'...
+> [0m[32m[D][0m Loading project from '/home/foo/leetcode_solutions/medium/firstLastPosOfTargetInSortedArray/.bloop/root.json'
+> [0m[32m[D][0m Loading project from '/home/foo/leetcode_solutions/medium/firstLastPosOfTargetInSortedArray/.bloop/root-test.json'
+> [0m[33m[W][0m Scala instance jar /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.6/scala-compiler-2.13.6.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.6/scala-reflect-2.13.6.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.19.0/jline-3.19.0.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar doesn't exist!
+> [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.6.
+> [0m[32m[D][0m   => /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+> [0m[32m[D][0m   => /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.19.0/jline-3.19.0.jar
+> [0m[32m[D][0m   => /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.6/scala-compiler-2.13.6.jar
+> [0m[33m[W][0m Scala instance jar /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.6/scala-compiler-2.13.6.jar doesn't exist!
+> [0m[32m[D][0m   => /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar
+> [0m[33m[W][0m Scala instance jar /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.6/scala-reflect-2.13.6.jar doesn't exist!
+> [0m[32m[D][0m   => /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.6/scala-reflect-2.13.6.jar
+> [0m[33m[W][0m Scala instance jar /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.19.0/jline-3.19.0.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar doesn't exist!
+> [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.6.
+> [0m[32m[D][0m   => /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+> [0m[32m[D][0m   => /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.19.0/jline-3.19.0.jar
+> [0m[32m[D][0m   => /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.6/scala-compiler-2.13.6.jar
+> [0m[32m[D][0m   => /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar
+> [0m[32m[D][0m   => /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.6/scala-reflect-2.13.6.jar
+> [0m[32m[D][0m Elapsed: 7.7503 ms
+> [0m[31m[E][0m Failed to load project from /home/foo/leetcode_solutions/medium/firstLastPosOfTargetInSortedArray/.bloop/root-test.json
+> [0m[36m[T][0m bloop.data.Project$ProjectReadException: Failed to load project from /home/foo/leetcode_solutions/medium/firstLastPosOfTargetInSortedArray/.bloop/root-test.json
+> [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:223)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:238)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:57)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$$$Lambda$349/0x00000000ac38cbb0.apply(Unknown Source)
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+> [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+> [0m[36m[T][0m 	monix.eval.Task$$$Lambda$329/0x00000000ac357720.run(Unknown Source)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+> [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:853)
+> [0m[36m[T][0m Caused by: java.nio.file.NoSuchFileException: /home/foobar/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar
+> [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+> [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+> [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+> [0m[36m[T][0m 	java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+> [0m[36m[T][0m 	java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:149)
+> [0m[36m[T][0m 	java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+> [0m[36m[T][0m 	java.base/java.nio.file.Files.readAttributes(Files.java:1843)
+> [0m[36m[T][0m 	bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:82)
+> [0m[36m[T][0m 	bloop.ScalaInstance$$Lambda$390/0x000000007c019440.apply(Unknown Source)
+> [0m[36m[T][0m 	scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:285)
+> [0m[36m[T][0m 	scala.collection.TraversableLike$$Lambda$60/0x00000000ac0c6ff0.apply(Unknown Source)
+> [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+> [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+> [0m[36m[T][0m 	scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+> [0m[36m[T][0m 	scala.collection.TraversableLike.map(TraversableLike.scala:285)
+> [0m[36m[T][0m 	scala.collection.TraversableLike.map$(TraversableLike.scala:278)
+> [0m[36m[T][0m 	scala.collection.AbstractTraversable.map(Traversable.scala:108)
+> [0m[36m[T][0m 	bloop.ScalaInstance.<init>(ScalaInstance.scala:78)
+> [0m[36m[T][0m 	bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:152)
+> [0m[36m[T][0m 	bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:157)
+> [0m[36m[T][0m 	bloop.ScalaInstance$$$Lambda$381/0x000000008402b0b8.apply(Unknown Source)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+> [0m[36m[T][0m 	bloop.ScalaInstance$.apply(ScalaInstance.scala:157)
+> [0m[36m[T][0m 	bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:240)
+> [0m[36m[T][0m 	bloop.data.Project$$$Lambda$360/0x0000000084040678.apply(Unknown Source)
+> [0m[36m[T][0m 	scala.Option.flatMap(Option.scala:271)
+> [0m[36m[T][0m 	bloop.data.Project$.fromConfig(Project.scala:235)
+> [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:217)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:238)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:57)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$$$Lambda$349/0x00000000ac38cbb0.apply(Unknown Source)
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+> [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+> [0m[36m[T][0m 	monix.eval.Task$$$Lambda$329/0x00000000ac357720.run(Unknown Source)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+> [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:853)
+error: The launcher failed to establish a bsp connection, aborting...
+[0m2021.06.23 00:37:47 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$1.run(BloopServers.scala:159)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.lang.Thread.run(Thread.java:853)
+[0m
+[0m2021.06.23 00:37:52 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.06.23 00:37:54 INFO  time: code lens generation in 8.75s[0m

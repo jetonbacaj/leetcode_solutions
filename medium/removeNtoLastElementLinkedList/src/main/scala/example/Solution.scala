@@ -22,14 +22,6 @@ object Solution {
   }
 
   def removeNthFromEnd(head: ListNode, n: Int): ListNode = {
-    /*
-    n compare 10 match {
-      case 0 => "ten"
-      case 1 => "greater than ten"
-      case -1 => "less than ten"
-    })
-    */
-
     @annotation.tailrec
     def countIter(workingHead: ListNode, count: Int): Int = {
       workingHead match {
@@ -40,28 +32,21 @@ object Solution {
 
     @annotation.tailrec
     def iter(last: Option[ListNode], curr: ListNode, counter: Int): ListNode = {
-
       (counter compareTo 0) match {
-
-        //(1,2,3,4,5), 2 => 4 ==> (1,2,3,5)
-
         case 0 => 
           last.map(l => l.next = curr.next)
           head
 
         case 1 => iter(Some(curr), curr.next, counter - 1)
-
         case _ => throw new RuntimeException("This should not happen!")
       }
-
     }
 
     val elementCount = countIter(head, 0)
     val difference = elementCount - n
 
-    //if(difference == 0) head
-    //else 
     if(difference < 0) null
+    else if (n < 1) head
     else if (difference == 0) head.next
     else if(elementCount == n) head
     else iter(None, head, difference)  
